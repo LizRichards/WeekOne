@@ -1,0 +1,10 @@
+1) the LocalDateTime class
+
+2) date.with(TemporalAdjusters.previous(DayOfWeek.THURSDAY)
+
+3) ZoneId is the string version name of the timezone and gives rules for (formatting) converting between
+and instant and LocalDateTime.
+A Zone-offset is the number of hours a timezone is adjusted (+/-) from UTC.
+
+4)Instant to zoned: ZonedDateTime zonedTime = instant.atZone(ZoneId.of("ZoneId"));
+Zoned to Instant: Instant instantTime = zonedTime.toInstant();

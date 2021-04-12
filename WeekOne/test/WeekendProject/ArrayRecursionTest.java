@@ -14,7 +14,6 @@ public class ArrayRecursionTest {
     int[] nums = {4, 5, 5, 5, 7, 2, 9, 78, 30, 4, 4};
     int[] nums2 = {4, 15, 0, 0, 7, 2, 9, 78, 30, 8, 0};
 
-
     /**
      * Test of ElimDoubles method, of class ArrayRecursion.
      */

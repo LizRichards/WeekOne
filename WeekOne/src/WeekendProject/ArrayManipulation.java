@@ -17,8 +17,6 @@ public class ArrayManipulation {
     public static void main(String[] args) {
         List<Integer> nums = new ArrayList<>();
         Scanner in = new Scanner(System.in);
-        //System.out.println("Enter the number of numbers in the array");
-        //nums = new int[in.nextInt()];
         System.out.println("Enter the integers for the number list, divided by spaces");
         String input = in.nextLine();
         String[] tokens = input.split(" ");
